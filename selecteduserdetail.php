@@ -50,7 +50,6 @@ if(isset($_POST['submit']))
         $sender = $sql1['name'];
         $receiver = $sql2['name'];
         $sql = "INSERT INTO transaction(`sender`, `receiver`, `balance`) VALUES ('$sender','$receiver','$amount')";
-        echo $sql;
         $query=mysqli_query($conn,$sql);
         if($query){
             echo "<script> alert('Transaction Successful');
