@@ -7,7 +7,7 @@ CREATE TABLE `transaction` (
   `sender` text NOT NULL,
   `receiver` text NOT NULL,
   `balance` Integer NOT NULL,
-  `datetime` datetime DEFAULT CURRENT_TIMESTAMP
+  `datetime` TIMESTAMP  DEFAULT CURRENT_TIMESTAMP
 );
 
 --
