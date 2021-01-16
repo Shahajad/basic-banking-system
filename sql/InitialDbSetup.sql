@@ -35,4 +35,4 @@ INSERT INTO `users` (`id`, `name`, `email`, `balance`) VALUES
 (7, 'BKK', 'BKK@mail.com', 3000),
 (8, 'Tom', 'tom@mail.com', 1000),
 (9, 'Jerry', 'jerry@mail.com', 8000),
-(10, 'Justin', 'justin@mail.com', 15000);
+(10, 'Diljeet', 'diljeet@mail.com', 15000);
